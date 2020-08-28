@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b5376daf-3e77-475d-81c4-33c0498b4f4b" name="Default Changelist" comment="配置声卡驱动之前的commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OC/config.plist" beforeDir="false" afterPath="$PROJECT_DIR$/OC/config.plist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +52,7 @@
       <workItem from="1598431717195" duration="15000" />
       <workItem from="1598506268782" duration="3209000" />
       <workItem from="1598510692358" duration="12000" />
+      <workItem from="1598597198563" duration="750000" />
     </task>
     <task id="LOCAL-00001" summary="配置声卡驱动之前的commit">
       <created>1598426810905</created>
@@ -66,6 +66,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="配置声卡驱动之前的commit" />
