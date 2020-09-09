@@ -8,19 +8,29 @@ opencore 0.5.8
 电脑型号 微星 MS-7B23 台式电脑
 
 处理器 英特尔 Core i3-8100 @ 3.60GHz 四核
+
 主板 微星 B360M BAZOOKA PLUS (MS-7B23) ( B360 芯片组 )
+
 显卡 Nvidia GeForce GTX 1050 Ti ( 4 GB / 微星 )
+
 内存 8 GB ( 芝奇 DDR4 2666MHz )
+
 主硬盘 西数 WDC WDS120G2G0A-00JH30 ( 120 GB / 固态硬盘 )
+
 显示器 XMD004A Mi TV ( 55.2 英寸 )
+
 声卡 英特尔 High Definition Audio 控制器
+
 网卡 英特尔 Ethernet Connection I219-V / 微星
 
 ## 介绍
 
 macOS: 核显 DP 输出
+
 Win10: 独显 HDMI 输出
+
 Win10 设置仅独显输出
+
 10.15.6 在 10.13.6 版本上增加启动参数 屏蔽了独显, 否则进不去安装
 
 未解决问题: 关机变重启
