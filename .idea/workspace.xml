@@ -24,6 +24,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -53,6 +54,7 @@
       <workItem from="1598506268782" duration="3209000" />
       <workItem from="1598510692358" duration="12000" />
       <workItem from="1598597198563" duration="750000" />
+      <workItem from="1600362227317" duration="848000" />
     </task>
     <task id="LOCAL-00001" summary="配置声卡驱动之前的commit">
       <created>1598426810905</created>
@@ -77,6 +79,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="配置声卡驱动之前的commit" />
