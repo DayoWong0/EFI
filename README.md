@@ -1,7 +1,7 @@
 # Opencore
 
-自用台式电脑 macOS 10.13.6 配置
-opencore 0.5.8
+自用台式电脑 macOS 10.15.6 配置
+opencore 0.5.8 debug version
 
 ## 电脑配置
 
@@ -29,11 +29,11 @@ macOS: 核显 DP 输出
 
 Win10: 独显 HDMI 输出
 
-Win10 设置仅独显输出
+Win10下 设置仅独显输出
 
 10.15.6 在 10.13.6 版本上增加启动参数 屏蔽了独显, 否则进不去安装
 
-未解决问题: 关机变重启
+
 
 # 其他
 
@@ -108,32 +108,6 @@ F8: 向右移动一个空间
 
 ## 驱动
 
-### 显卡驱动
-
-#### 方法 1. nvidia web driver
-
-因为我安装的这个 macOS 版本的问题, nvidia 官方没这个驱动
-
-用下面的替代
-
-https://github.com/Benjamin-Dobell/nvidia-update
-
-- 先安装 shadowsocksX-Ng-R8
-  https://github.com/paradiseduo/ShadowsocksX-NG-R8/releases
-- 设置 mac 终端代理
-- 运行上面 github 的脚本
-- 重启电脑
-  我第一次重启失败了， 再次重启成功
-
-但是在使用中发现会出现显卡无输出的现象, 通过插拔 HDMI 线可以解决, 推测时因为没使用 nvidia 官方驱动的原因
-
-后来在 youtube 上看到了第二种方法
-
-#### 方法 2: 先升级系统, 再安装 nvidia 官方支持的显卡驱动
-
-[《香教仁的黑蘋果世界 EP25》｜怎麼又安裝不起來了？｜ macOS10.13.6 Nvidia 顯示卡安裝教學｜](https://www.youtube.com/watch?v=XV0YqZUP65U)
-暂时还没试这个, 如果要用这个, 要先卸载之前安装过的 nvidia 驱动
-
 ### 声卡驱动
 
 参考:
@@ -156,8 +130,6 @@ PciRoot(0x0)/Pci(0x1F,0x3)--> layout-id data 12000000
 
 #### 遇到的坑
 
-测试环境是 独立显卡 HDMI 连接小米电视 我没 DP 线 电视也没 DP 接口
-
 导致花了一天的时间测试 lay-out id 结果发现 HDMI 都没输出声音
 
 当我修改 lay-out-id = 12 时
@@ -172,6 +144,32 @@ PciRoot(0x0)/Pci(0x1F,0x3)--> layout-id data 12000000
 
 接下来需要看怎么让独显 HDMI 也输出声音
 
-## 其他
+## 问题
 
-目录 APPLE 为 macOS 10.13.6 启动盘 efi 分区里的内容， 担心后期误删， 故备份
+### 关机变重启
+
+进bios设置唤醒事件为bios控制而不是操作系统控制
+
+### hdmi核显没输出
+
+黑果小兵教程说加缓冲帧, 没有尝试
+
+### win mac 系统时间不同步 且时间经常改变
+
+参考: https://zhuanlan.zhihu.com/p/72871207
+
+1. 装好系统后, 进win10 cmd 管理员模式运行命令
+
+```cmd
+Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
+```
+
+2. 重置bios
+   用螺丝刀短接主板电池旁边的接线柱15s,大概这意思.我的主板电池在显卡下面
+   
+   然后重新设置bios选项
+
+
+
+
+
