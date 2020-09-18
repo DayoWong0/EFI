@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5376daf-3e77-475d-81c4-33c0498b4f4b" name="Default Changelist" comment="add readme images">
-      <change afterPath="$PROJECT_DIR$/BigSur/._README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BigSur/README.assets/image-20200918135757959.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BigSur/README.assets/image-20200918140140916.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BigSur/README.assets/image-20200918140413985.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BigSur/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigSur/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BigSur/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +43,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -65,22 +62,10 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b5376daf-3e77-475d-81c4-33c0498b4f4b" name="Default Changelist" comment="" />
@@ -96,6 +81,8 @@
       <workItem from="1598597198563" duration="750000" />
       <workItem from="1600362227317" duration="1367000" />
       <workItem from="1600407979535" duration="1435000" />
+      <workItem from="1600410874448" duration="307000" />
+      <workItem from="1600412653989" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="配置声卡驱动之前的commit">
       <created>1598426810905</created>
@@ -122,7 +109,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
