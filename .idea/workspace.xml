@@ -19,9 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5376daf-3e77-475d-81c4-33c0498b4f4b" name="Default Changelist" comment="增加f* 按键快捷键">
-      <change afterPath="$PROJECT_DIR$/._README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.assets/image-20200918010438314.png" afterDir="false" />
+    <list default="true" id="b5376daf-3e77-475d-81c4-33c0498b4f4b" name="Default Changelist" comment="add readme images">
+      <change afterPath="$PROJECT_DIR$/BigSur/._README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigSur/README.assets/image-20200918135757959.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigSur/README.assets/image-20200918140140916.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigSur/README.assets/image-20200918140413985.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigSur/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +66,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,7 +94,8 @@
       <workItem from="1598506268782" duration="3209000" />
       <workItem from="1598510692358" duration="12000" />
       <workItem from="1598597198563" duration="750000" />
-      <workItem from="1600362227317" duration="1192000" />
+      <workItem from="1600362227317" duration="1367000" />
+      <workItem from="1600407979535" duration="1435000" />
     </task>
     <task id="LOCAL-00001" summary="配置声卡驱动之前的commit">
       <created>1598426810905</created>
@@ -104,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600363272929</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add readme images">
+      <created>1600363970813</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600363970813</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +140,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="配置声卡驱动之前的commit" />
     <MESSAGE value="增加f* 按键快捷键" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加f* 按键快捷键" />
+    <MESSAGE value="add readme images" />
+    <option name="LAST_COMMIT_MESSAGE" value="add readme images" />
   </component>
   <component name="WindowStateProjectService">
     <state x="510" y="245" width="260" height="264" key="Github.ShareDialog" timestamp="1598424967830">
@@ -141,11 +156,12 @@
       <screen x="0" y="23" width="1280" height="636" />
     </state>
     <state x="141" y="23" key="SettingsEditor/0.23.1280.636@0.23.1280.636" timestamp="1598424686092" />
-    <state x="360" y="118" key="Vcs.Push.Dialog.v2" timestamp="1600363278762">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="360" y="111" key="Vcs.Push.Dialog.v2" timestamp="1600363974030">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="240" y="81" key="Vcs.Push.Dialog.v2/0.23.1280.648@0.23.1280.648" timestamp="1598426817358" />
     <state x="360" y="118" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1600363278762" />
+    <state x="360" y="111" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1600363974030" />
     <state x="1065" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600363917778">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
